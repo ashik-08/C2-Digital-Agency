@@ -1,4 +1,28 @@
+/* common shared styles */
 * {
   margin: 0;
   padding: 0;
+}
+
+/* navbar related styles */
+.nav-container {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.menus {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.menus li:hover {
+  color: aqua;
+  cursor: pointer;
+  text-decoration: underline;
 }
