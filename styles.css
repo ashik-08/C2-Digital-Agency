@@ -4,6 +4,18 @@
   padding: 0;
 }
 
+.primary {
+  color: red;
+}
+
+.btn {
+  border: none;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* navbar related styles */
 .nav-container {
   background-color: gray;
@@ -50,10 +62,6 @@
   color: white;
 }
 
-.primary {
-  color: red;
-}
-
 .banner-para {
   font-size: 22px;
   color: white;
@@ -64,15 +72,7 @@
 .btn-primary {
   background-color: red;
   color: white;
-}
-
-.btn {
-  border: none;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  font-size: 16px;
-  margin-left: 12px;
-  cursor: pointer;
+  margin-right: 12px;
 }
 
 /* service related styles */
@@ -89,11 +89,7 @@
 
 .service-btn {
   color: gray;
-  border: none;
-  font-size: 16px;
-  padding: 15px 35px;
   border-radius: 24px;
-  cursor: pointer;
 }
 
 .service-title {
@@ -137,12 +133,8 @@
 
 .author-btn {
   color: red;
-  border: none;
-  padding: 15px 30px;
   border-radius: 24px;
-  text-transform: uppercase;
   margin-left: 12px;
-  cursor: pointer;
 }
 
 .right-side-container {
