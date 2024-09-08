@@ -90,6 +90,7 @@
 .service-btn {
   color: gray;
   border-radius: 24px;
+  font-size: 14px;
 }
 
 .service-title {
@@ -135,6 +136,7 @@
   color: red;
   border-radius: 24px;
   margin-left: 12px;
+  font-size: 14px;
 }
 
 .right-side-container {
@@ -166,4 +168,42 @@
 
 .service-card h3 {
   margin-top: 20px;
+}
+
+/* appointment related styles */
+.appointment-container {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  background-color: red;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.phone-call {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-right: 2px solid gray;
+  padding-right: 20px;
+}
+
+.phone-call div small {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.phone-call div p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.apont-btn {
+  border-radius: 24px;
+  font-size: 14px;
 }
